@@ -6,14 +6,17 @@ call clss by .
 call id by #
 call data-property by[]
 */
-div{
-width: auto;
-height: 200px;
-margin-bottom: 10;
-background-color: chartreuse;
+body {
+    background-color: #F5F5F5;
 }
 
-/* div is father of h1 , star * is what child is inside it */
-div>h1{
-    width: auto;
+hr {
+    border: 3px dotted;
+    border-style: dotted none none none;
+    height: 3px;
+    width: 10%;
+    color: #30E3CA;
+}
+h1,h3 {
+    color: #2F89FC;
 }
