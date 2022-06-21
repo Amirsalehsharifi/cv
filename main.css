@@ -1,0 +1,19 @@
+/* !important make everything in high priority
+id
+class
+data-property
+call clss by .
+call id by #
+call data-property by[]
+*/
+div{
+width: auto;
+height: 200px;
+margin-bottom: 10;
+background-color: chartreuse;
+}
+
+/* div is father of h1 , star * is what child is inside it */
+div>h1{
+    width: auto;
+}
